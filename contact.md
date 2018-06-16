@@ -1,13 +1,11 @@
 ---
 layout: page
-title: About
-permalink: /contact/
+title: Contact Me 
+permalink: /Contact/
 ---
 
-### Contact me
 
-# Email: 
-hopecaneel [a t] gmail [d o t] com
+**Email:** hopecaneel [a t] gmail [d o t] com
 
 
 
