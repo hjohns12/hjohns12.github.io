@@ -9,7 +9,7 @@ name: Hope Johnson
 description: Building, animating, and securing data for the people.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: http://images.clipartpanda.com/blue-crab-drawing-crab_drawing.gif
+avatar: [<img src="{{ site.baseurl }}/images/me.jpg" alt="Smiling Hope" style="width: 400px;"/>]
 
 #
 # Flags below are optional
