@@ -1,7 +1,7 @@
 "use strict";
 (function(){
 
-  console.log('helloooo');
+  console.log('testing 1 2 3');
 
   $('.projectImg').hover(function(){
     $(this).fadeTo(200, 0.5);
