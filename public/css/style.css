@@ -52,7 +52,7 @@ header {
 
 #logo {
   font-weight: 500;
-  font-size: 30px;
+  font-size: 34px;
   margin-left: 60px;
   float: left;
   display: block;
@@ -68,7 +68,7 @@ nav {
   display: inline-block;
   float: left;
   padding: 0 15px 0 15px;
-  font-size: 15px;
+  font-size: 20px;
   letter-spacing: 1px;
 }
 
@@ -129,7 +129,7 @@ div.projectColumn {
 
 div.projectPreview {
     height: 350px;
-    /* width: 450px; */
+    width: 450px;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 60px;
@@ -142,7 +142,7 @@ div.projectPreview {
 }
 
 div.projectDescription {
-  margin-left: 750px;
+  margin-left: 550px;
 }
 
 .projectDescription p {
@@ -290,7 +290,7 @@ h1 {
 }
 
 .temp a {
-  color: #563f46;
+  color: #8ca3a3;
 }
 
 /* /////////////////////////////////////////////////////////////*/
