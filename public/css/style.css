@@ -283,6 +283,7 @@ h1 {
 
 
 .temp {
+  float: left;
   text-align: left;
   margin-top: 100px;
   font-weight: 300;
