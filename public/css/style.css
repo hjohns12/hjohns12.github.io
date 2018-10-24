@@ -117,6 +117,7 @@ nav {
 
 div .projects {
   margin-top: 100px;
+  margin-bottom: 60px;
 }
 
 div.projectColumn {
@@ -124,18 +125,19 @@ div.projectColumn {
     width: 450px;
     margin-left: 100px;
     margin-right: 100px;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
     position: relative;
   }
 
 .projectLink > img{
   height: 100%;
+  margin-bottom: 10px;
 }
 
 .projectText {
   text-align: center;
   vertical-align: middle;
-  color: white;
+  color: gray;
   font-weight: 600;
   letter-spacing: 3px;
   position: absolute;
@@ -148,7 +150,7 @@ div.projectColumn {
 }
 
 .projectBack {
-  background-color: black;
+  background-color: white;
   position: absolute;
   top: 0;
   left: 0;
