@@ -202,7 +202,7 @@ div.projectDescription {
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover; /* check these again */
+  -o-background-size: cover; 
 }
 
 .row {
@@ -360,7 +360,9 @@ div.projectColumn {
 @media all and (min-width: 600px) {
   .col-1-2 {
     float: left;
-    width: 50%;
+    line-height: 170%;
+    margin-left: 15%;
+    width: 65%;
   }
 
   .col-1-3 {
