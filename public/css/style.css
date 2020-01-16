@@ -85,11 +85,13 @@ nav {
 }
 
 /* /////////////////////////////////////////////////////////////*/
-/* WORKSHOPS PAGE */
+/* TALKS PAGE */
+
 .workshops {
-  text-align: center;
-  margin-top: 100px;
-  margin-bottom: 30px;
+  margin: 100px 326px 40px 340px;
+  text-align: left;
+  /* margin-top: 100px;
+  margin-bottom: 30px; */
 }
 
 .workshops p {
