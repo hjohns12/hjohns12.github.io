@@ -10,6 +10,11 @@
   clear: both;
 }
 
+.my-iframe {
+  text-align:center;
+  margin: 100px 326px 40px 340px;
+}
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
   color: #000000; /* used to be #333*/;
