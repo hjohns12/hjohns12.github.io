@@ -239,7 +239,8 @@ h2 {
 }
 
 .section {
-  background-color: #CDCDCD;
+  background-color: #EEEE;
+  /* background-color: #8ca3a3; */
   padding: 2rem 1.5rem;
   padding-top: 2em;
   padding-bottom: 2em;
