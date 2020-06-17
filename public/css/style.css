@@ -109,98 +109,15 @@ nav {
   font-weight: 600;
 }
 
-.workshops a{
-  color: #333;
-}
-
-.workshops a:hover{
-  color: #c8c3cc;
-}
-
-
 .divider {
   background-color: #cccccc;
   margin: 0 326px 40px 340px;
   height: 2px;
 }
 
-/* /////////////////////////////////////////////////////////////*/
-/* PROJECT PAGE */
-
-div .projects {
-  margin-top: 100px;
-  margin-bottom: 60px;
-}
-
-div.projectColumn {
-    height: 250px;
-    width: 450px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 100px;
-    position: relative;
-  }
-
-.projectLink > img{
-  height: 100%;
-  margin-bottom: 10px;
-}
-
-.projectText {
-  text-align: center;
-  vertical-align: middle;
-  color: gray;
-  font-weight: 600;
-  letter-spacing: 3px;
-  position: absolute;
-  margin-top: 25%;
-  opacity: 0;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
-
-.projectBack {
-  background-color: white;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-}
 
 /* /////////////////////////////////////////////////////////////*/
-/* SUB-PROJECT PAGES */
-
-div.projectPreview {
-    height: 350px;
-    width: 450px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 60px;
-    float: left;
-    position: relative;
-  }
-
-.projectPreview > img {
-  height: 100%;
-}
-
-div.projectDescription {
-  margin-left: 550px;
-}
-
-.projectDescription p {
-  font-weight: 300;
-  line-height: 30px;
-  padding: 0 15px 0 15px;
-}
-
-
-/* /////////////////////////////////////////////////////////////*/
-/* ABOUT & CREATIVE PAGE */
+/* ABOUT PAGE */
 .banner {
   position: relative;
   background: url(../img/photo1_2.jpg) no-repeat center;
@@ -314,6 +231,20 @@ h1 {
   margin-top: 120px;
 }
 
+h2 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 40px;
+  margin-top: 120px;
+}
+
+.section {
+  background-color: #CDCDCD;
+  padding: 2rem 1.5rem;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
 
 .temp {
   text-align: right;
@@ -325,6 +256,13 @@ h1 {
 
 .temp a {
   color: #8ca3a3;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /* /////////////////////////////////////////////////////////////*/
@@ -422,3 +360,7 @@ div.projectColumn {
   nav:hover ul {
     display: block;
   }
+  
+.project-explainer {
+  padding-left: 10px;
+}
