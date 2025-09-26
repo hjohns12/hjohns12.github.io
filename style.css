@@ -1,0 +1,149 @@
+/* @import url("https://fonts.cdnfonts.com/css/comic-neue"); */
+
+@font-face {
+  font-family: G2Kosmos-Regular;
+  src: url(G2Kosmos-Regular.woff) format("woff");
+}
+
+:root {
+  /* --font-family: "Comic Neue", sans-serif; */
+  --font-family: "G2Kosmos-Regular";
+  --background-color: white;
+  --color-main: #117f19;
+  --color-accent: hotpink;
+  --color-link: orange;
+  --font-size: 1.1rem;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  line-height: 2rem;
+  background-color: var(--background-color);
+  color: var(--color-main);
+}
+
+a {
+  color: var(--color-link);
+  text-decoration: none;
+  border-bottom: 1px solid transparent; /* use border-bottom to underline on hover */
+  transition: color 0.3s ease, border-bottom-color 0.3s ease;
+}
+
+a:hover {
+  color: var(--color-accent);
+  border-bottom-color: var(--color-accent);
+  text-shadow: 0.2px 0.2px 0.5px var(--color-accent);
+}
+
+hr {
+  background-color: var(--color-main);
+  height: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav li {
+  display: block;
+  margin: var(--font-size);
+}
+
+/* h1 {
+  font-size: 4rem;
+  letter-spacing: 10px;
+} */
+
+/* 
+@font-face {
+  font-family: G2Kosmos-Extended;
+  src: url(G2Kosmos-Extended.woff) format("woff");
+}
+
+@font-face {
+  font-family: G2Kosmos-Regular;
+  src: url(G2Kosmos-Regular.woff) format("woff");
+}
+body,
+html {
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  width: 98%;
+  height: 98%;
+}
+h1 {
+  font-family: "G2Kosmos-Extended";
+  color: #117f19;
+  font-size: 8vh;
+  letter-spacing: 20px;
+}
+
+h2 {
+  font-family: "G2Kosmos-Extended";
+  color: #117f19;
+  font-size: 30px;
+  background-color: rgb(0, 255, 0);
+}
+
+h3 {
+  font-family: "G2Kosmos-Extended";
+  color: #117f19;
+  font-size: 30px;
+  background-color: hotpink;
+}
+
+strong {
+  font-family: "G2Kosmos-Extended";
+  font-size: 20px;
+  background-color: orange;
+}
+
+.info {
+  text-align: left;
+}
+a:hover {
+  color: hotpink;
+  font-size: 20px;
+  text-decoration: underline;
+}
+a {
+  font-family: "G2Kosmos-Extended";
+  color: #117f19;
+  text-decoration: none;
+}
+img {
+  width: 40vw;
+}
+body {
+  color: #117f19;
+  background-color: white;
+  font-family: "G2Kosmos-Regular";
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 1.7;
+  text-align: left;
+  word-break: keep-all;
+}
+p strong {
+  background-color: hotpink;
+}
+a {
+  color: orange;
+}
+a:hover {
+  color: hotpink;
+  font-size: 20px;
+  text-decoration: underline;
+}
+hr {
+  color: #117f19;
+  background-color: #117f19;
+  border: 0 none;
+  height: 10px;
+} 
+  
+*/
