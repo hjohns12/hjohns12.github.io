@@ -1,32 +1,54 @@
-/* @import url("https://fonts.cdnfonts.com/css/comic-neue"); */
-
 @font-face {
   font-family: G2Kosmos-Regular;
   src: url(G2Kosmos-Regular.woff) format("woff");
 }
 
 :root {
-  /* --font-family: "Comic Neue", sans-serif; */
-  --font-family: "G2Kosmos-Regular";
-  --background-color: white;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 16px;
+  letter-spacing: 0.02rem;
+  background-color: white;
+
+  --font-headers: "G2Kosmos-Regular";
   --color-main: #117f19;
   --color-accent: hotpink;
   --color-link: orange;
-  --font-size: 1.1rem;
+  --padding: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-headers);
+  letter-spacing: 0.2rem;
+  text-transform: lowercase;
 }
 
 body {
-  font-family: var(--font-family);
-  font-size: var(--font-size);
-  line-height: 2rem;
-  background-color: var(--background-color);
   color: var(--color-main);
+  margin: 0;
+  padding: var(--padding);
+  border-top: 0.7rem solid var(--color-main);
+  border-bottom: 0.7rem solid var(--color-main);
+}
+
+nav {
+  position: relative;
+  bottom: var(--padding);
+}
+
+.bottom {
+  top: var(--padding);
+  bottom: 0rem;
 }
 
 a {
   color: var(--color-link);
   text-decoration: none;
-  border-bottom: 1px solid transparent; /* use border-bottom to underline on hover */
+  border-bottom: 1px solid transparent; /* used to underline on hover */
   transition: color 0.3s ease, border-bottom-color 0.3s ease;
 }
 
@@ -36,25 +58,13 @@ a:hover {
   text-shadow: 0.2px 0.2px 0.5px var(--color-accent);
 }
 
-hr {
-  background-color: var(--color-main);
-  height: 10px;
-}
-
 nav ul {
-  list-style-type: none;
-  display: flex;
+  padding: 0;
 }
 
 nav li {
-  display: block;
-  margin: var(--font-size);
+  display: inline;
 }
-
-/* h1 {
-  font-size: 4rem;
-  letter-spacing: 10px;
-} */
 
 /* 
 @font-face {
