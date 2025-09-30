@@ -12,3 +12,7 @@ section, subsection
 nav
 
 make font and layout responsive
+
+set up grid for header & footer
+
+set up flexbox for main content -- limit width of elements/text
